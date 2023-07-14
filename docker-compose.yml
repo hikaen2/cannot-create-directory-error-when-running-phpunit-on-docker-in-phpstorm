@@ -3,4 +3,4 @@ services:
     image: php:8.2-cli
     user: 1000:1000
     volumes:
-      - ./app:/app
+      - .:/opt
